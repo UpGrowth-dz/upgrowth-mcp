@@ -1,6 +1,6 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.UpGrowth-dz/upgrowth-mcp",
+  "name": "io.github.Z4KARY/upgrowth-mcp",
   "title": "UpGrowth: business data for Algeria, Tunisia and Morocco",
   "description": "Official business data for Algeria, Tunisia and Morocco: activity codes, legal forms, tax, gazettes.",
   "version": "1.1.0",
