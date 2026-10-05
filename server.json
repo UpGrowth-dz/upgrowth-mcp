@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.UpGrowth-dz/upgrowth-mcp",
+  "title": "UpGrowth: business data for Algeria, Tunisia and Morocco",
+  "description": "Official public data on creating and running a company in Algeria, Tunisia and Morocco: activity codes, legal forms and fees, tax rates, social contributions, institutions, official gazette indexes, customs tariff and calculators. Every record cites its official source.",
+  "version": "1.1.0",
+  "websiteUrl": "https://www.upgrowth.dz/api",
+  "repository": { "url": "https://github.com/UpGrowth-dz/upgrowth-mcp", "source": "github" },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.upgrowth.dz/mcp",
+      "headers": [
+        { "name": "Authorization", "description": "Optional. Bearer key of a paid UpGrowth plan; the free tier needs no header.", "isRequired": false, "isSecret": true }
+      ]
+    }
+  ]
+}
